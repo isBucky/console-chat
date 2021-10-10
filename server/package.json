@@ -1,0 +1,36 @@
+{
+  "name": "console-chat-server",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B4CKY0FC/console-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "console",
+    "console-chat",
+    "socket",
+    "socket.io"
+  ],
+  "author": "@bucky.br",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/B4CKY0FC/console-chat/issues"
+  },
+  "homepage": "https://github.com/B4CKY0FC/console-chat#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "gradient-string": "^1.2.0",
+    "notepack.io": "^2.3.0",
+    "socket.io": "^4.2.0",
+    "socket.io-msgpack-parser": "^3.0.1",
+    "socket.io-parser": "^4.0.4"
+  }
+}
