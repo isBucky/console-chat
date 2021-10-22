@@ -17,7 +17,7 @@ const
     prompt: color(`  [você]: `),
     terminal: false,
   }),
-  io = socket('wss://localhost:3000', {
+  io = socket('ws://localhost:3000', {
     parser,
     auth: {
       password: 'senha'
